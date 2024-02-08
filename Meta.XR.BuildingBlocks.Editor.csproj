@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6D028863-E7FE-CFA9-0412-06A296429643}</ProjectGuid>
+    <ProjectGuid>{309FB79E-7643-3384-1094-A7EEED17317F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Meta.XR.BuildingBlocks.Editor</AssemblyName>
@@ -58,20 +58,20 @@
   <ItemGroup>
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockCreationWindow.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\EyeGaze\Scripts\EyeGazeBlockData.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlocksWindow.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\ControllerTracking\Scripts\ControllerTrackingBlockData.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\HandTracking\Scripts\HandTrackingBlockData.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\SetupRules.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\Utils.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BuildingBlockEditor.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\CameraRig\Scripts\CameraRigSetupRules.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockBaseData.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\SceneListener.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\CustomHierarchyIcon.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlocksWindow.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\ControllerTracking\Scripts\ControllerTrackingBlockData.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\HandTracking\Scripts\HandTrackingBlockData.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\HandTracking\Scripts\HandTrackingSetupRules.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\SetupRules.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockData\VirtualKeyboard\Scripts\VirtualKeyboardBlockData.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\AssemblyInfo.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\Utils.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\BuildingBlocks\BlockDownloaderData.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -361,6 +361,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -764,15 +767,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{E71EA130-01C7-5A50-C5DB-CFF9B6103D2D}</Project>
+      <Project>{94B1ECF0-F812-F981-EA5E-AD7C61BBA197}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.VR.Editor.csproj">
-      <Project>{D85430FF-DEE0-97CC-A737-C7F81212D7CB}</Project>
+      <Project>{967C6479-4D6C-AFEC-58F5-B85ED27A7BBA}</Project>
       <Name>Oculus.VR.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.XR.BuildingBlocks.csproj">
-      <Project>{AD4D7391-9773-121B-D969-3B1C8294D4FB}</Project>
+      <Project>{43027E52-0BA2-9125-B926-8A0BDCF91733}</Project>
       <Name>Meta.XR.BuildingBlocks</Name>
     </ProjectReference>
   </ItemGroup>

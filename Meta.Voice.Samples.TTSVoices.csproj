@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CB9F4032-1A18-5082-6B03-4D9969058463}</ProjectGuid>
+    <ProjectGuid>{2299484D-4D7A-C390-6829-8F62057F4C63}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Meta.Voice.Samples.TTSVoices</AssemblyName>
@@ -57,15 +57,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerVoiceSelect.cs" />
-    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSStreamToggle.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSCacheToggle.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\SimpleDropdownList.cs" />
-    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerObserver.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerEffectSelect.cs" />
-    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSFileToggle.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerInput.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSErrorText.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerStatusLabel.cs" />
+    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSStreamToggle.cs" />
+    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSSpeakerObserver.cs" />
+    <Compile Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\TTSFileToggle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\Voice\Samples\TTSVoices\Scripts\Meta.Voice.Samples.TTSVoices.asmdef" />
@@ -341,6 +341,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -726,11 +729,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Meta.WitAi.TTS.csproj">
-      <Project>{1AAF890C-48AD-EA49-8653-51FC3FE4A69C}</Project>
+      <Project>{9316E5F4-5A74-FCD2-C813-37CB48BA06CE}</Project>
       <Name>Meta.WitAi.TTS</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
-      <Project>{CD57E806-3DFF-A22D-5D1C-4419107EA6B2}</Project>
+      <Project>{1BC21E2C-2B9D-0C8A-78D6-380251227D37}</Project>
       <Name>Meta.WitAi.Lib</Name>
     </ProjectReference>
   </ItemGroup>

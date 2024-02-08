@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{D85430FF-DEE0-97CC-A737-C7F81212D7CB}</ProjectGuid>
+    <ProjectGuid>{967C6479-4D6C-AFEC-58F5-B85ED27A7BBA}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.VR.Editor</AssemblyName>
@@ -59,11 +59,51 @@
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupXRTasks.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupUpdater.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRSystemSplashScreenEditor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupStatusIcon.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettings.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupMovementSDK.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Telemetry\OVRProjectSetupTelemetryEvent.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRSceneVolumeEditor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Utils\ConsoleLinkEventHandler.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\Settings\OVRProjectSettingsProvider.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskProcessor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRScreenshotWizard.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Utils\SerializableDictionary.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRBuild.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskProcessorQueue.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRSceneAnchorEditor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskSourceCode.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVREditorUtils.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRPluginUpdater.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupUtils.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupMovementTasks.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettingItem.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupCompatibilityTasks.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OpenXRFeatures\MetaXRFeatureEnabler.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\AssemblyInfo.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupDrawer.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRReadOnlyDrawer.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupPhysicsTasks.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRScenePlaneEditor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRSystemProfilerPanel.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRBundleManager.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskRegistry.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupRenderingTasks.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskFixer.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OpenXRFeatures\MetaXRFeatureSet.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRDeviceSelector.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRTelemetry\OVREditorShutdown.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRPluginInfoOpenXR.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupPassthrough.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRPassthroughHelper.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRSemanticClassificationEditor.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTask.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRExpansionFileGenerator.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupSceneTasks.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRPlatformToolSettings.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskUpdaterSummary.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRStatusMenu\OVRStatusMenu.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskException.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupStatusIcon.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettingsProvider.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupBuildValidator.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRPlatformTool.cs" />
@@ -73,67 +113,27 @@
     <Compile Include="Assets\Oculus\VR\Editor\OVRTelemetry\OVRTelemetryPopup.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRADBTool.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRLint.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettings.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupMovementSDK.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Telemetry\OVRProjectSetupTelemetryEvent.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRSceneVolumeEditor.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupQualityTasks.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupCli.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRAnimatedContent.cs" />
+    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupCli.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRGradleGeneration.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Utils\ConsoleLinkEventHandler.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\Settings\OVRProjectSettingsProvider.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskProcessor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRScreenshotWizard.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskUpdater.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRTelemetry\OVREditorStart.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Utils\SerializableDictionary.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRBuild.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskProcessorQueue.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRBundleTool.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRSceneAnchorEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskSourceCode.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVREditorUtils.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRPluginUpdater.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRExperimentalCheck.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRGuiContent.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupUtils.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupMovementTasks.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupSettingItem.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRLayerAttributeEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupCompatibilityTasks.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\AssemblyInfo.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OpenXRFeatures\MetaXRFeatureEnabler.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupDrawer.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRReadOnlyDrawer.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectConfig.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupPhysicsTasks.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRShaderBuildProcessor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRScenePlaneEditor.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Utils\OptionalLambdaType.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRSystemProfilerPanel.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRBundleManager.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTaskRegistry.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupVirtualKeyboard.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupRenderingTasks.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Processors\OVRConfigurationTaskFixer.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OpenXRFeatures\MetaXRFeatureSet.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\Settings\OVRRuntimeSettingsBuildProcessor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRDeviceSelector.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRTelemetry\OVREditorShutdown.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRPluginInfoOpenXR.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRManifestPreprocessor.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\OVRProjectSetupReport.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupPassthrough.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\Utils\OVRPassthroughHelper.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRPluginInfo.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRSemanticClassificationEditor.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\OVRConfigurationTask.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRExpansionFileGenerator.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVREngineConfigurationUpdater.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRConfig.cs" />
     <Compile Include="Assets\Oculus\VR\Editor\OVRDirectorySyncer.cs" />
-    <Compile Include="Assets\Oculus\VR\Editor\OVRProjectSetup\Tasks\Implementations\OVRProjectSetupSceneTasks.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\VR\Editor\Oculus.VR.Editor.asmdef" />
@@ -422,6 +422,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -834,7 +837,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{E71EA130-01C7-5A50-C5DB-CFF9B6103D2D}</Project>
+      <Project>{94B1ECF0-F812-F981-EA5E-AD7C61BBA197}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1B9E2A6E-F6FA-0A87-98D1-C94C93C4A52E}</ProjectGuid>
+    <ProjectGuid>{726425E0-757C-71E4-D330-B6E8D5D697EC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Oculus.Interaction.OVR.Samples</AssemblyName>
@@ -56,45 +56,45 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotionTutorialAnimationUnityEventWrapper.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ScaleModifier.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabRecord\TimerUIControl.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PalmMenu\DominantHandGameObjectFilter.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\SceneLoader.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\CarouselView.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotionTutorialTurnVisual.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PalmMenu\PalmMenuExampleButtonHandlers.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\PoseCaptureCountdown.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotionTutorialProgressTracker.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ScaleAudioEvents.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PoseUseSample.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\LookAtTarget.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ShouldHideHandOnGrab.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabUse\Effects\MeshBlit.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\UseGrabPressure\PressureSquishable.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\CountdownTimer.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\LockedBodyPose.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\FadeTextAfterActive.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Snap\ListSnapPoseDelegateRoundedBoxVisual.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\UseGrabPressure\PressureBreakable.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabRecord\HandGrabPoseLiveRecorder.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\SamplesInfoPanel.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabUse\Rendering\BasicPBRGlobals.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\BodyPoseSwitcher.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PalmMenu\PalmMenuExample.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\RotationAudioEvents.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Snap\ConstantRotation.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\AdjustableAudio.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\RespawnOnDrop.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabUse\Effects\WaterSpray\WaterSpray.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\AudioTrigger.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\EnableTargetOnStart.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabUse\Effects\WaterSpray\WaterSprayNozzleTransformer.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\StayInView.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotorSound.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotionTutorialAnimationUnityEventWrapper.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ScaleModifier.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabRecord\TimerUIControl.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PalmMenu\PalmMenuExampleButtonHandlers.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\PoseCaptureCountdown.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\ScaleAudioEvents.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\LookAtTarget.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\UseGrabPressure\PressureSquishable.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\LockedBodyPose.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\FadeTextAfterActive.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\UseGrabPressure\PressureBreakable.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\SamplesInfoPanel.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HandGrabUse\Rendering\BasicPBRGlobals.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Body\BodyPoseSwitcher.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Snap\ConstantRotation.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\RespawnOnDrop.cs" />
+    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\AudioTrigger.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\PalmMenu\MatchNonDominantPalmWorldSpaceTransform.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\AudioPhysics.cs" />
-    <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\Locomotion\LocomotorSound.cs" />
     <Compile Include="Assets\Oculus\Interaction\Samples\Scripts\HideHandVisualOnGrab.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -385,6 +385,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -773,11 +776,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Oculus.VR.csproj">
-      <Project>{E71EA130-01C7-5A50-C5DB-CFF9B6103D2D}</Project>
+      <Project>{94B1ECF0-F812-F981-EA5E-AD7C61BBA197}</Project>
       <Name>Oculus.VR</Name>
     </ProjectReference>
     <ProjectReference Include="Oculus.Interaction.csproj">
-      <Project>{2C23E7D1-116E-2409-42DE-3A495680EF70}</Project>
+      <Project>{3CEEBC89-5FB5-837A-4F7C-3EF7E85F92DE}</Project>
       <Name>Oculus.Interaction</Name>
     </ProjectReference>
   </ItemGroup>

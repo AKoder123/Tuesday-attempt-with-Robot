@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{35281EBE-29A7-56DE-A4E2-A53EE3903094}</ProjectGuid>
+    <ProjectGuid>{F377E9AF-1054-8456-D73B-8E0B75DAC622}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Meta.VoiceSDK.Mic.Other</AssemblyName>
@@ -331,6 +331,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -716,11 +719,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Meta.VoiceSDK.Mic.Common.csproj">
-      <Project>{4D2796CE-D635-A1B7-0B23-EE1BE1E9174C}</Project>
+      <Project>{3D04EFCD-1010-1A50-08E0-6BF76B33102E}</Project>
       <Name>Meta.VoiceSDK.Mic.Common</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
-      <Project>{CD57E806-3DFF-A22D-5D1C-4419107EA6B2}</Project>
+      <Project>{1BC21E2C-2B9D-0C8A-78D6-380251227D37}</Project>
       <Name>Meta.WitAi.Lib</Name>
     </ProjectReference>
   </ItemGroup>

@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{7E0685EE-7B3C-74CA-436A-25B15EBDDE8B}</ProjectGuid>
+    <ProjectGuid>{1DC8CE22-3FE9-5B04-5580-6B8F77F0B1E5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Meta.Voice.Samples.Chess</AssemblyName>
@@ -56,8 +56,8 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Oculus\Voice\Samples\Chess\Scripts\AssemblyInfo.cs" />
     <Compile Include="Assets\Oculus\Voice\Samples\Chess\Scripts\ChessBoardController.cs" />
+    <Compile Include="Assets\Oculus\Voice\Samples\Chess\Scripts\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Oculus\Voice\Samples\Chess\Scripts\Meta.Voice.Samples.Chess.asmdef" />
@@ -332,6 +332,9 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.TextureAssets">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="AssimpNet">
+      <HintPath>Library\PackageCache\com.unity.robotics.urdf-importer@90f353e435\Runtime\UnityMeshImporter\Plugins\AssimpNet\AssimpNet.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
@@ -717,19 +720,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Meta.WitAi.csproj">
-      <Project>{2C9EEF4C-7EE3-6F2C-25E2-4C08A13B8D47}</Project>
+      <Project>{E75AB7D0-C3E9-8E7B-1EDC-527C1BBB6C52}</Project>
       <Name>Meta.WitAi</Name>
     </ProjectReference>
     <ProjectReference Include="VoiceSDK.Runtime.csproj">
-      <Project>{A47E7B71-2C08-3B38-75D9-AD9D85AB4CB7}</Project>
+      <Project>{84850C07-CCCE-DB3A-0ED9-B06E68D59584}</Project>
       <Name>VoiceSDK.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Conduit.csproj">
-      <Project>{581F866F-8CB9-732C-C00E-0A48258CBAF9}</Project>
+      <Project>{24BE58F4-4732-3AE1-AD98-CD1515BE73DF}</Project>
       <Name>Meta.WitAi.Conduit</Name>
     </ProjectReference>
     <ProjectReference Include="Meta.WitAi.Lib.csproj">
-      <Project>{CD57E806-3DFF-A22D-5D1C-4419107EA6B2}</Project>
+      <Project>{1BC21E2C-2B9D-0C8A-78D6-380251227D37}</Project>
       <Name>Meta.WitAi.Lib</Name>
     </ProjectReference>
   </ItemGroup>
